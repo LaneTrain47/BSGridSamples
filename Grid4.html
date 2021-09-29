@@ -63,27 +63,32 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container minHeight h-100 mb-5">
+        <div class="container minHeight h-100 mb-1">
+            <h1 class="mt-2 text-center">Grid Four</h1>
 
-            <h1 class="mt-5 text-center">Grid Four</h1>
-
-            <div class="row row-cols-1 row-cols-md-3 gy-1 mt-5 minHeight border border-dark">
-
-                <div class="col-4 bg-light text-black">
-                    <h3 class="text-center mt-5">Column 1</h3>
+            <div class="row h-100">
+                <!-- Left Column -->
+                <div class="col-7">
+                    <div class="p-3 bg-secondary text-light h-100">
+                        COLUMN LEFT
+                    </div>
                 </div>
-
-                <div class="col-4 bg-dark text-white">
-                    <h3 class="text-center mt-5">Column 2</h3>
+                <!-- Right Column -->
+                <div class="col-5 d-flex flex-column justify-content-evenly h-100">
+                    <div class="h-50 bg-light ps-2 m-2">
+                        COLUMN RIGHT
+                    </div>
+                    <div class="h-50 bg-dark text-light ps-2 m-2">
+                        COLUMN BOTTOM RIGHT
+                    </div>
+                    <div class="bg-dark border-top border-light border-1 p-2 m-2">
+                        <button type="button" class="btn btn-light">Read More</button>
+                    </div>
                 </div>
-
-                <div class="col-4 bg-secondary text-white">
-                    <h3 class="text-center mt-5">Column 3</h3>
-                </div>
-
             </div>
         </div>
     </main>
+
     <footer class="footer mt-auto py-3 bg-black sticky-footer">
         <div class="container-fluid text-center">
             <span class="text-white">Matt Lane |<img src="/img/Favicon.png" class="faviconFooter"> |
