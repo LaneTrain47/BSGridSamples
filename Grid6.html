@@ -66,26 +66,28 @@
         <div class="container minHeight h-100 mb-1">
             <h1 class="mt-2 text-center">Grid Six</h1>
 
-            <div class="row h-100">
-                <!-- Left Column -->
-                <div class="col-7">
+            <div class="row row-cols-1 gy-2 h-100">
+
+                <div class="col col-md-12">
                     <div class="p-3 bg-secondary text-light h-100">
-                        COLUMN LEFT
+                        COLUMN ONE
                     </div>
                 </div>
-                <!-- Right Column -->
-                <div class="col-5 d-flex flex-column justify-content-evenly h-100">
-                    <div class="h-50 bg-light ps-2 m-2">
-                        COLUMN RIGHT
-                    </div>
-                    <div class="h-50 bg-dark text-light ps-2 m-2">
-                        COLUMN BOTTOM RIGHT
-                    </div>
-                    <div class="bg-dark border-top border-light border-1 p-2 m-2">
-                        <button type="button" class="btn btn-light">Read More</button>
+
+                <div class="col col-md-6 order-md-last">
+                    <div class="p-3 bg-dark text-light h-100">
+                        COLUMN THREE
                     </div>
                 </div>
+
+                <div class="col col-md-6">
+                    <div class="p-3 bg-secondary text-light h-100">
+                        COLUMN TWO
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </main>
 
