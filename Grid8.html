@@ -63,8 +63,36 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
+        <div class="container minHeight h-100 mb-1">
+            <h1 class="mt-2 text-center">Grid Eight</h1>
 
+            <div class="row h-100 row-cols-1 gy-2">
+
+                <div class="col col-md-12">
+                    <div class="p-3 bg-secondary h-100 text-light ">
+                        MAIN COLUMN
+                    </div>
+                </div>
+
+                <div class="col col-md-4 order-md-last">
+                    <div class="p-3 bg-dark h-100 text-light">
+                        COLUMN ONE (ORDERED LAST)
+                    </div>
+                </div>
+
+                <div class="col col-md-4">
+                    <div class="p-3 bg-secondary h-100 text-light">
+                        COLUMN TWO
+                    </div>
+                </div>
+
+                <div class="col col-md-4">
+                    <div class="p-3 bg-secondary h-100 text-light">
+                        COLUMN THREE
+                    </div>
+                </div>
+
+            </div>
         </div>
     </main>
 
