@@ -21,6 +21,14 @@ main>.container-fluid {
     margin-right: 10px;
 }
 
+footer {
+    background-color: var(--dark-color);
+}
+
+footer .social>a {
+    color: var(--white-color);
+}
+
 .bgImage {
     background-image: url("/img/GridBG.png");
     background-repeat: none;
@@ -39,4 +47,19 @@ main>.container-fluid {
 
 .minHeight {
     min-height: 75vh;
+}
+
+footer .linkedin>a:hover {
+    opacity: .9;
+    color: #1163bf;
+}
+
+footer .github>a:hover {
+    opacity: .9;
+    color: #7a319a;
+}
+
+footer .twitter>a:hover {
+    opacity: .9;
+    color: #1da1f3;
 }
